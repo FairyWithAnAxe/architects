@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/assets/css/normalize.css">
+    <link rel="stylesheet" href="/assets/css/architects_gallery.css">
+    <style>
+        .container {
+            margin: 0px auto;
+            max-width: 1170px;
+        }
+
+        .slider__items {
+            display: -webkit-flex;
+            display: -moz-flex;
+            display: -ms-flex;
+            display: -o-flex;
+            display: flex;
+            max-height: 100%;
+            overflow-x: hidden;
+        }
+
+        .slider__item {
+            min-width: 100%;
+            max-height: 50vw;
+        }
+
+        .slider__item img {
+            margin: 0 auto;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .holder {
+            position: relative;
+            //width: 210px;
+            //height: 260px;
+        }
+
+        .holder img {
+            width: 100%;
+        }
+
+        .block {
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            top: 0px;
+            background: rgba(224, 222, 222, 0.7);
+            visibility: hidden;
+        }
+
+        .holder:hover .block {
+            visibility: visible;
+            overflow: auto;
+            transition: all 1s ease 0s;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="slider">
+            <div class="slider__items">
+                <div class="gallery slider__item active">
+                    <div class="gallary__image holder">
+                        <img class="gallery__item" src="/assets/images/gallery/1.png" alt="image">
+                        <div class="block">
+                            <p class="gallary__image_text">Lorem ipsum dolor, sit amet consectetur adipisicing
+                                elit. Hic maxime eligendi doloremque cumque cupiditate nam, quisquam et in</p>
+                                <p class="gallary__image_text">Lorem ipsum dolor, sit amet consectetur adipisicing
+                                    elit. Hic maxime eligendi doloremque cumque cupiditate nam, quisquam et in</p>
+                                    <p class="gallary__image_text">Lorem ipsum dolor, sit amet consectetur adipisicing
+                                        elit. Hic maxime eligendi doloremque cumque cupiditate nam, quisquam et in</p>
+                                        <p class="gallary__image_text">Lorem ipsum dolor, sit amet consectetur adipisicing
+                                            elit. Hic maxime eligendi doloremque cumque cupiditate nam, quisquam et in</p>
+                        </div>
+                    </div>
+                    <div class="gallary__image holder">
+                        <img class="gallery__item" src="/assets/images/gallery/2.png" alt="image">
+                        <div class="block">
+                            <p class="gallary__image_text">Lorem ipsum dolor, sit amet consectetur adipisicing
+                                elit. Hic maxime eligendi doloremque cumque cupiditate nam, quisquam et in</p>
+                        </div>
+                    </div>
+                    <div class="gallary__image holder">
+                        <img class="gallery__item" src="/assets/images/gallery/3.png" alt="image">
+                        <div class="block">
+                            <p class="gallary__image_text">Lorem ipsum dolor, sit amet consectetur adipisicing
+                                elit. Hic maxime eligendi doloremque cumque cupiditate nam, quisquam et in</p>
+                        </div>
+                    </div>
+                    <div class="gallary__image holder">
+                        <img class="gallery__item" src="/assets/images/gallery/4.png" alt="image">
+                        <div class="block">
+                            <p class="gallary__image_text">Lorem ipsum dolor, sit amet consectetur adipisicing
+                                elit. Hic maxime eligendi doloremque cumque cupiditate nam, quisquam et in</p>
+                        </div>
+                    </div>
+                    <div class="gallary__image holder">
+                        <img class="gallery__item" src="/assets/images/gallery/5.png" alt="image">
+                        <div class="block">
+                            <p class="gallary__image_text">Lorem ipsum dolor, sit amet consectetur adipisicing
+                                elit. Hic maxime eligendi doloremque cumque cupiditate nam, quisquam et in</p>
+                        </div>
+                    </div>
+                    <div class="gallary__image holder">
+                        <img class="gallery__item" src="/assets/images/gallery/6.png" alt="image">
+                        <div class="block">
+                            <p class="gallary__image_text">Lorem ipsum dolor, sit amet consectetur adipisicing
+                                elit. Hic maxime eligendi doloremque cumque cupiditate nam, quisquam et in</p>
+                        </div>
+                    </div>
+                    <div class="gallary__image holder">
+                        <img class="gallery__item" src="/assets/images/gallery/7.png" alt="image">
+                        <div class="block">
+                            <p class="gallary__image_text">Lorem ipsum dolor, sit amet consectetur adipisicing
+                                elit. Hic maxime eligendi doloremque cumque cupiditate nam, quisquam et in</p>
+                        </div>
+                    </div>
+                    <div class="gallary__image holder">
+                        <img class="gallery__item" src="/assets/images/gallery/8.png" alt="image">
+                        <div class="block">
+                            <p class="gallary__image_text">Lorem ipsum dolor, sit amet consectetur adipisicing
+                                elit. Hic maxime eligendi doloremque cumque cupiditate nam, quisquam et in</p>
+                        </div>
+                    </div>
+                    <div class="gallary__image holder">
+                        <img class="gallery__item" src="/assets/images/gallery/9.png" alt="image">
+                        <div class="block">
+                            <p class="gallary__image_text">Lorem ipsum dolor, sit amet consectetur adipisicing
+                                elit. Hic maxime eligendi doloremque cumque cupiditate nam, quisquam et in</p>
+                        </div>
+                    </div>
+                    <div class="gallary__image holder">
+                        <img class="gallery__item" src="/assets/images/gallery/10.png" alt="image">
+                        <div class="block">
+                            <p class="gallary__image_text">Lorem ipsum dolor, sit amet consectetur adipisicing
+                                elit. Hic maxime eligendi doloremque cumque cupiditate nam, quisquam et in</p>
+                                <p class="gallary__image_text">Lorem ipsum dolor, sit amet consectetur adipisicing
+                                    elit. Hic maxime eligendi doloremque cumque cupiditate nam, quisquam et in</p>
+                                    <p class="gallary__image_text">Lorem ipsum dolor, sit amet consectetur adipisicing
+                                        elit. Hic maxime eligendi doloremque cumque cupiditate nam, quisquam et in</p>
+                                        <p class="gallary__image_text">Lorem ipsum dolor, sit amet consectetur adipisicing
+                                            elit. Hic maxime eligendi doloremque cumque cupiditate nam, quisquam et in</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery slider__item">
+                    <div class="gallary__image holder"><img class="gallery__item" src="/assets/images/gallery/6.png"
+                            alt="image"></div>
+                    <div class="gallary__image holder"><img class="gallery__item" src="/assets/images/gallery/7.png"
+                            alt="image"></div>
+                    <div class="gallary__image holder"><img class="gallery__item" src="/assets/images/gallery/8.png"
+                            alt="image"></div>
+                    <div class="gallary__image holder"><img class="gallery__item" src="/assets/images/gallery/9.png"
+                            alt="image"></div>
+                    <div class="gallary__image holder"><img class="gallery__item" src="/assets/images/gallery/10.png"
+                            alt="image"></div>
+                    <div class="gallary__image holder"><img class="gallery__item" src="/assets/images/gallery/1.png"
+                            alt="image"></div>
+                    <div class="gallary__image holder"><img class="gallery__item" src="/assets/images/gallery/2.png"
+                            alt="image"></div>
+                    <div class="gallary__image holder"><img class="gallery__item" src="/assets/images/gallery/3.png"
+                            alt="image"></div>
+                    <div class="gallary__image holder"><img class="gallery__item" src="/assets/images/gallery/4.png"
+                            alt="image"></div>
+                    <div class="gallary__image holder"><img class="gallery__item" src="/assets/images/gallery/5.png"
+                            alt="image"></div>
+                </div>
+            </div>
+            <button class="btn__slider">Prev</button>
+            <button class="btn__slider">Next</button>
+        </div>
+    </div>
+
+    <script>
+        let slider = document.querySelector('.slider');
+        let slider__items = slider.querySelectorAll('.slider__item');
+        let buttons = slider.querySelectorAll('.btn__slider');
+        let button__prev = buttons[0];
+        let button__next = buttons[1];
+        let maxItems = slider__items.length;
+
+        let num = 0;
+
+        function transformNum(znak) {
+            let backElem, frontElem;
+            if (znak === 'minus') {
+                backElem = slider__items[num + 1];
+                frontElem = slider__items[num];
+                backElem.style.transform = `translateZ(0px) translate(${-1 * num * 100}%, 0) scale(0)`;
+                frontElem.style.transform = `translateZ(0px) translate(${-1 * num * 100}%, 0) scale(1)`;
+            } else if (znak === 'plus') {
+                backElem = slider__items[num - 1];
+                frontElem = slider__items[num];
+                backElem.style.transform = `translateZ(0px) translate(${-1 * num * 100}%, 0) scale(0)`;
+                frontElem.style.transform = `translateZ(0px) translate(${-1 * num * 100}%, 0) scale(1)`;
+            }
+        }
+
+        function addActive(znak) {
+            let elem;
+            if (znak === 'minus') {
+                if (num - 1 === -1) {
+                    return;
+                }
+                num--;
+                transformNum(znak);
+                elem = slider__items[num + 1];
+                elem.classList.remove('active');
+            } else if (znak === 'plus') {
+                if (num + 1 === maxItems) {
+                    return;
+                }
+                num++;
+                transformNum(znak);
+                elem = slider__items[num - 1];
+                elem.classList.remove('active');
+            }
+            elem = slider__items[num];
+            elem.classList.add('active');
+        }
+
+        button__prev.addEventListener('click', () => {
+            addActive('minus');
+        });
+
+        button__next.addEventListener('click', () => {
+            addActive('plus');
+        });
+    </script>
+</body>
+
+</html>
